@@ -32,7 +32,7 @@ module.exports = client => {
                     if(cmd == "invite" || cmd == "add"){
                         message.reply({
                             embeds: [new Discord.MessageEmbed().setColor("BLURPLE").setTitle(`:white_check_mark: **Thanks for inviting me**`)
-                            .setDescription(`[**Click here to invite me!**](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)`)
+                            .setDescription(`[**Click here to invite me!**](https://www.youtube.com/watch?v=dQw4w9WgXcQ)`)
                         ]})
                     } else if(cmd == "setup"){
                         if(!message.member.permissions.has(Discord.Permissions.FLAGS.ADMINISTRATOR)) {
