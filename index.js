@@ -13,7 +13,7 @@ const client = new Discord.Client({
       activity: {
         name: `Dm me for help | m!help`, 
         type: "PLAYING", 
-        url: "https://twitch.tv/#"
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       },
       status: "online"
     },
